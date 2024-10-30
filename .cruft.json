@@ -1,0 +1,29 @@
+{
+  "template": "https://github.com/scverse/cookiecutter-scverse",
+  "commit": "c6e5e5008a7b2915709b7def3cdcddcf6159c301",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "project_name": "drum-dev",
+      "package_name": "drum",
+      "project_description": "Drum is a sequence-based model based on single cell multi-omics data",
+      "author_full_name": "Xinming Tu",
+      "author_email": "tuxm@cs.washington.edu",
+      "github_user": "XinmingTu",
+      "project_repo": "https://github.com/XinmingTu/drum-dev",
+      "license": "BSD 3-Clause License",
+      "_copy_without_render": [
+        ".github/workflows/build.yaml",
+        ".github/workflows/test.yaml",
+        "docs/_templates/autosummary/**.rst"
+      ],
+      "_render_devdocs": false,
+      "_jinja2_env_vars": {
+        "lstrip_blocks": true,
+        "trim_blocks": true
+      },
+      "_template": "https://github.com/scverse/cookiecutter-scverse"
+    }
+  },
+  "directory": null
+}

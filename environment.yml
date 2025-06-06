@@ -23,4 +23,5 @@ dependencies:
   - jupyter
   - genomepy[version='>=0.15']
   - wandb
+  - logomaker
 prefix: /homes/gws/tuxm/anaconda3/envs/drum-dev

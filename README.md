@@ -7,7 +7,15 @@
 [link-tests]: https://github.com/XinmingTu/drum-dev/actions/workflows/test.yml
 [badge-docs]: https://img.shields.io/readthedocs/drum-dev
 
-Drum is a sequence-based model based on single cell multi-omics data
+## Overview
+
+Drum is an advanced sequence-based model that leverages single-cell multi-omics data to predict regulatory relationships across species and tissues. By integrating chromatin accessibility and gene expression data with DNA sequence information, Drum provides bidirectional predictive capabilities and insights into gene regulatory mechanisms.
+
+## Dataset
+
+-   **Cross-species data**: Mouse, fly, human, and other organisms
+-   **Cross-tissue measurements**: Multiple tissue types across different developmental stages
+-   **Multi-omics integration**: Primarily gene expression and chromatin accessibility data
 
 ## Getting started
 
@@ -62,3 +70,5 @@ If you found a bug, please use the [issue tracker][issue-tracker].
 [changelog]: https://drum-dev.readthedocs.io/latest/changelog.html
 [link-docs]: https://drum-dev.readthedocs.io
 [link-api]: https://drum-dev.readthedocs.io/latest/api.html
+
+## References

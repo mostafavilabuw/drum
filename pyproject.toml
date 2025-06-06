@@ -51,6 +51,9 @@ doc = [
 test = [
     "pytest",
     "coverage",
+    "scanpy",
+    "anndata",
+    "torch",
 ]
 
 [tool.hatch.build.targets.wheel]
